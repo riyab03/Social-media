@@ -1,0 +1,5 @@
+.notifbar{
+    /* background: url('../assets/image\ 14.png'),linear-gradient(45deg,  rgb(0 94 79),rgb(22 184 158)); */
+    background: url('../assets/image\ 14.png'),var(--themecolor);
+    background-size: contain;
+}

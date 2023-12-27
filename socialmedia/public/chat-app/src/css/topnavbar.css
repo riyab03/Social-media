@@ -1,0 +1,6 @@
+.top-navbar{
+    background:  url('../assets/image\ 14.png'),var(--themecolor);
+    height: 60px;
+    background-size: contain;
+    color:white;
+}

@@ -1,0 +1,23 @@
+export const host = "http://localhost:5000";
+export const loginRoute = `${host}/api/auth/login`;
+export const registerRoute = `${host}/api/auth/register`;
+export const logoutRoute = `${host}/api/auth/logout`;
+export const allUsersRoute = `${host}/api/auth/allusers`;
+export const sendMessageRoute = `${host}/api/messages/addmsg`;
+export const recieveMessageRoute = `${host}/api/messages/getmsg`;
+export const sendGrpMessageRoute = `${host}/api/messages/addgrpmsg`;
+export const recieveGrpMessageRoute = `${host}/api/messages/getgrpmsg`;
+export const sendgrpinvite=`${host}/api/grpops/grpinvite`;
+export const getNotifications=`${host}/api/messages/getnotifications`;
+export const uploadprofilepic=`${host}/api/auth/uploadprofilepic`;
+export const uploadgrpprofilepic=`${host}/api/grpops/uploadgrpprofilepic`;
+export const getprofiledetails=`${host}/api/auth/getprofiledetails`;
+export const getuserprofiledetails=`${host}/api/search/getuserprofiledetails`;
+export const checkloggedInorNot=`${host}/api/auth/checkloggedInorNot`;
+export const searchFriends=`${host}/api/search/searchfriends`;
+export const getgrpdetails=`${host}/api/grpops/getgrpdetails`;
+export const uploadpost=`${host}/api/posts/uploadpost`;
+export const getposts=`${host}/api/posts/getposts`;
+export const likepost=`${host}/api/posts/likepost`;
+export const showwholeprofile=`${host}/api/search/showwholeprofile`;
+
